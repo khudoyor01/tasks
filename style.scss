@@ -146,8 +146,12 @@
 }
 @media (max-width: 767px) {
     .container {
-       
+        .side-bar {
+            min-height: 80vh;
+            
+        }
         section {
+            min-height: 100vh;
             .nav {
                 flex-direction: column;
             }

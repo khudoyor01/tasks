@@ -203,6 +203,12 @@
 }
 
 @media (max-width: 767px) {
+  .container .side-bar {
+    min-height: 80vh;
+  }
+  .container section {
+    min-height: 100vh;
+  }
   .container section .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
